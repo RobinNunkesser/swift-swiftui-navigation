@@ -2,7 +2,7 @@ import SwiftUI
 
 struct SecondView: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             Text("SecondViewLabel")
                 .font(.title)
                 .navigationTitle(Text("SecondViewTitle"))
